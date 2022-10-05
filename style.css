@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap');
+
+body {
+    font-family: 'Big Shoulders Display', cursive;
+    position: relative;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+}
+
+.black-box {
+    position: absolute;
+    top: -189px;
+    width: 450px;
+    height: 800px;
+    background-color: #151515;
+}
+
+.hero-img {
+    position: absolute;
+    top: -189px;
+    left: 450px;
+    z-index: -99;
+}
+
+/*********************************** Intro ***********************************/
+
+.container {
+    max-width: 1110px;
+    margin: 189px auto 80px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header p {
+    margin-bottom: 64px;
+    width: 350px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 88px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: exclusion;
+}
+
+.location-btn {
+    display: flex;
+}
+
+.location-a {
+    padding: 24px 35px 24px 32px;
+    background-color: #151515;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+}
+
+.location-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 72px;
+    background-color: #D5966C;
+}
+
+/*********************************** Gallery ***********************************/
+
+.gallery {
+    margin-top: 494px;
+}
+
+.gallery-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.your-day {
+    width: 350px;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #151515;
+}
+
+.your-day p {
+    margin-top: 32px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+}
+
+.gallery-2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.be-inspired {
+    margin-top: 30px;
+    width: 445px;
+    padding: 65px 47px 64px 48px;
+    background-color: #151515;
+}
+
+.be-inspired h3 {
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.be-inspired p {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
