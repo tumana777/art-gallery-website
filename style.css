@@ -28,7 +28,7 @@ p {
 
 .container {
     max-width: 1110px;
-    margin: 189px auto 80px;
+    margin: 189px auto 0;
 }
 
 header {
@@ -112,6 +112,7 @@ h3 {
 
 .gallery-2 {
     margin-top: 30px;
+    margin-bottom: 180px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -134,4 +135,44 @@ h3 {
     font-size: 22px;
     line-height: 32px;
     color: #FFFFFF;
+}
+
+/*********************************** Footer ***********************************/
+
+.footer-box {
+    width: 100%;
+    padding: 80px 0;
+    background-color: #151515;
+}
+
+.footer-box .container {
+    margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-left-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer p {
+    margin-left: 140px;
+    width: 430px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
 }
