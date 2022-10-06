@@ -176,3 +176,61 @@ footer p {
     display: flex;
     gap: 20px;
 }
+
+/*********************************** Location ***********************************/
+
+.map-img {
+    max-width: 100%;
+    display: block;
+}
+
+.back-to-home {
+    position: absolute;
+    top: 50px;
+    left: 156px;
+}
+
+.location-black-box {
+    padding-top: 104px;
+    width: 100%;
+    height: 548px;
+    background-color: #151515;
+}
+
+.location-black-box .container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h4 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #D5966C;
+}
+
+address p {
+    width: 540px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.location-gold-box {
+    width: 100%;
+    height: 244px;
+    background-color: #D5966C;
+}
