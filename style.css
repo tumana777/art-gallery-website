@@ -447,7 +447,7 @@ address p {
 @media (max-width: 775px) {
 
     .container {
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
     }
 
