@@ -459,6 +459,7 @@ address p {
     }
 
     .hero-img-mobile {
+        max-width: 100%;
         display: block;
         margin: 0 auto;
     }
