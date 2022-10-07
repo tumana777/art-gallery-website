@@ -25,9 +25,13 @@ p {
 }
 
 .hero-img-tablet,
+.hero-img-mobile,
 .grid-1-tablet,
+.grid-1-mobile,
 .grid-2-tablet,
-.grid-3-tablet {
+.grid-2-mobile,
+.grid-3-tablet,
+.grid-3-mobile {
     display: none;
 }
 
@@ -301,7 +305,7 @@ address p {
     cursor: pointer;
 }
 
-/*********************************** Responsive ***********************************/
+/*********************************** Responsive For Talet ***********************************/
 
 @media (max-width: 1100px) {
 
@@ -399,6 +403,184 @@ address p {
     .be-inspired p {
         font-size: 18px;
         line-height: 28px;
+    }
+
+    .footer-box {
+        padding: 56px 0;
+    }
+
+    footer p {
+        margin-left: 64px;
+        width: 281px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .location-black-box {
+        height: auto;
+        padding-top: 88px;
+        padding-bottom: 80px;
+    }
+
+    h2 {
+        font-size: 55px;
+        line-height: 50px;
+    }
+
+    h4 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    address p {
+        width: 398px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+}
+
+/*********************************** Responsive For Mobile ***********************************/
+
+@media (max-width: 775px) {
+
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .hero-img-tablet,
+    .grid-1-tablet,
+    .grid-2-tablet,
+    .grid-3-tablet {
+        display: none;
+    }
+
+    .hero-img-mobile {
+        display: block;
+        margin: 0 auto;
+    }
+
+    header {
+
+        margin: 32px auto 0;
+    }
+
+    h1 {
+        font-size: 60px;
+        line-height: 55px;
+    }
+
+    header p {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .gallery {
+        margin-top: 120px;
+    }
+
+    .gallery-1 {
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+
+    .grid-1-mobile,
+    .grid-2-mobile,
+    .grid-3-mobile {
+        display: block;
+    }
+
+    .your-day {
+        width: 343px;
+    }
+
+    h3 {
+        font-size: 50px;
+        line-height: 45px;
+    }
+
+    .gallery-2 {
+        margin-top: 32px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right-col {
+        margin-top: 16px;
+    }
+
+    .be-inspired {
+        padding: 48px 24px;
+        width: 343px;
+        margin-top: 16px;
+    }
+
+    .footer-box {
+        padding: 48px 0;
+    }
+
+    footer {
+        flex-direction: column;
+        max-width: max-content;
+        margin: 0 auto;
+    }
+
+    .footer-left-col {
+        flex-direction: column;
+    }
+
+    .footer-left-col p {
+        margin: 38px 0;
+        width: 311px;
+    }
+
+    .back-to-home {
+        top: 0;
+        left: 0;
+    }
+
+    .location-black-box {
+        padding-top: 48px;
+        padding-bottom: 56px;
+        height: auto;
+    }
+
+    .location-black-box .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        width: 343px;
+        margin-bottom: 48px;
+        font-size: 50px;
+        line-height: 45px;
+    }
+
+    h2 br {
+        display: none;
+    }
+
+    h4 {
+        font-weight: 900;
+        font-size: 32px;
+    }
+
+    address p {
+        width: 343px;
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .location-gold-box {
+        padding-top: 48px;
+        padding-bottom: 48px;
+        height: 336px;
     }
 
 }
